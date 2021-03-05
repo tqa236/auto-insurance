@@ -1,5 +1,7 @@
 # Auto insurance
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tqa236/auto-insurance/blob/main/Train.ipynb)
+
 ## Docker command
 
 Build image:
