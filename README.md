@@ -2,6 +2,8 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tqa236/auto-insurance/blob/main/Train.ipynb)
 
+## Run with Docker Hub's image
+
 ## Docker command
 
 Build image:
