@@ -4,6 +4,9 @@
 
 ## Run with Docker Hub's image
 
+```console
+docker run -it -p 8888:8888 tqa236/auto-insurance:latest
+```
 
 ## Docker command
 
