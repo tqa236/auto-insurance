@@ -20,7 +20,7 @@ docker build --tag auto_insurance .
 Run container:
 
 ```console
-docker run -it -p 8888:8888 -v "$(pwd):/auto_insurance" auto_insurance
+docker run --rm -it -p 8888:8888 -v "$(pwd):/auto_insurance" auto_insurance
 ```
 
 ## Install dependencies without Docker

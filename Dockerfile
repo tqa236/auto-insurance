@@ -1,15 +1,15 @@
 FROM jupyter/datascience-notebook:python-3.8.8
 
-USER root
+# USER root
 
-RUN apt-get update && apt-get install -y \
-    build-essential \
-    swig \
-    && rm -rf /var/lib/apt/lists/*
+# RUN apt-get update && apt-get install -y \
+#     build-essential \
+#     swig \
+#     && rm -rf /var/lib/apt/lists/*
 
 USER $NB_UID
 
-RUN curl https://raw.githubusercontent.com/automl/auto-sklearn/master/requirements.txt | xargs -n 1 -L 1 pip install
+# RUN curl https://raw.githubusercontent.com/automl/auto-sklearn/master/requirements.txt | xargs -n 1 -L 1 pip install
 
 RUN pip install --upgrade pip setuptools wheel
 
