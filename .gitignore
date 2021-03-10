@@ -129,12 +129,4 @@ dmypy.json
 .pyre/
 
 *.pdf
-
-catboost_info/*.tsv
-catboost_info/*.json
-catboost_info/learn/*
-!catboost_info/learn/.gitkeep
-catboost_info/test/*
-!catboost_info/test/.gitkeep
-catboost_info/tmp/*
-!catboost_info/tmp/.gitkeep
+catboost_info
