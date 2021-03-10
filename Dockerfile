@@ -10,7 +10,7 @@ COPY requirements.txt /auto_insurance/requirements.txt
 RUN pip install  --no-cache-dir --default-timeout=1000 -r requirements.txt
 
 USER root
-RUN chown $NB_UID /auto_insurance
+RUN chown -R $NB_UID /auto_insurance
 
 USER $NB_UID
 
